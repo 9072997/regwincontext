@@ -1,0 +1,7 @@
+I've spent the better part of a day trying to figure out how to register
+context-menu items for a particular extension in Windows 10. This is my
+solution. It requires admin rights to run.
+
+usage: regwincontext.exe pdf 'Menu Entry' 'C:\Path\to\myapp.exe'
+
+If you need to build this for x86, be sure to change build.bat
